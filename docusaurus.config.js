@@ -40,27 +40,13 @@ const config = {
 		locales: ["en"],
 	},
 
-	//reditect to the docs page
-	plugins: [
-		[
-			"@docusaurus/plugin-client-redirects",
-			{
-				redirects: [
-					{
-						from: "/",
-						to: "/docs/intro",
-					},
-				],
-			},
-		],
-	],
-
 	presets: [
 		[
 			"classic",
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
+					routeBasePath: "/",
 					sidebarPath: "./sidebars.js",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
