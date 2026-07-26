@@ -1,0 +1,8 @@
+{
+	"label": "Homelab",
+	"position": 2,
+	"link": {
+		"type": "generated-index",
+		"description": "My homelab setup, including servers, networking, and other related topics."
+	}
+}
