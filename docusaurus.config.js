@@ -40,6 +40,21 @@ const config = {
 		locales: ["en"],
 	},
 
+	//reditect to the docs page
+	plugins: [
+		[
+			"@docusaurus/plugin-client-redirects",
+			{
+				redirects: [
+					{
+						from: "/",
+						to: "/docs/",
+					},
+				],
+			},
+		],
+	],
+
 	presets: [
 		[
 			"classic",
