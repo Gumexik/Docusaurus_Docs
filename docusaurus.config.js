@@ -89,12 +89,6 @@ const config = {
 				},
 				items: [
 					{
-						type: "docSidebar",
-						sidebarId: "tutorialSidebar",
-						position: "left",
-						label: "Docs",
-					},
-					{
 						href: "https://github.com/Gumexik",
 						label: "GitHub",
 						position: "right",
