@@ -1,0 +1,27 @@
+#Docker
+
+Proxmox
+├── LXC 101: Docker
+│ ├── Portainer
+│ ├── Nginx Proxy Manager / Traefik
+│ ├── Homepage
+│ └── Other lightweight utilities
+│
+├── LXC 102: Docker - Media
+│ ├── Plex / Jellyfin
+│ ├── Sonarr
+│ ├── Radarr
+│ ├── Prowlarr
+│ └── qBittorrent
+│
+├── LXC 103: Docker - Services
+│ ├── Nextcloud
+│ ├── Immich
+│ └── Other user-facing apps
+│
+├── LXC 104: Home Assistant
+│
+└── VM 105: Docker / Kubernetes (optional)
+
+Docker PS to check running containers. Look for portainer. If it's there then portainer was installed correctly. From here you can check what ports are being used by the specific container. To create admin account for portainer instance, we need to retrieve logs from it. To do it run the below command in your docker lxc:
+docker portainer logs or docker ioaskdoas4234234 logs (you can use either the container name or it's ID). You should then see the token that can be used to create admin account
